@@ -8,8 +8,8 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Tooltip } from '@mui/material';
 function Dashboard() {
     const years = [
-        { revenue: 110, month: "Feb", color: "#f3efff" },
-        { revenue: 90, month: "Jan", color: "#f3efff" },
+        { revenue: 110, month: "Jan", color: "#f3efff" },
+        { revenue: 90, month: "Feb", color: "#f3efff" },
         { revenue: 150, month: "mar", color: "#f3efff" },
         { revenue: 130, month: "Apr", color: "#f3efff" },
         { revenue: 100, month: "May", color: "#f3efff" },
