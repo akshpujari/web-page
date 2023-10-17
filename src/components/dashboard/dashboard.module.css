@@ -1,0 +1,219 @@
+.productTitle,
+.charts,
+.overviewTitle,
+.monthlyChart {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title,
+.tdTitle {
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 13px;
+}
+
+.overview {
+    width: 70%;
+}
+
+.doughnutChart {
+    width: 28%;
+    height: 287px
+}
+
+.charts {
+    margin-top: 20px;
+    min-height: 300px;
+}
+
+.monthlyChart {
+    overflow: auto;
+    height: 86%;
+    align-items: normal;
+}
+
+.monthlyChart .bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.monthlyChart .bar:hover span {
+    box-shadow: 0 2px 5px #00000033;
+}
+
+.subtitle,
+.tdSubtitle {
+    color: #cbcbcb;
+    font-weight: 600;
+
+}
+
+.tdTitle {
+    font-size: 13px;
+}
+
+.tdSubtitle {
+    font-size: 12px;
+}
+
+.kpiBar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.kpi {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    width: 25%;
+}
+
+.kpi img {
+    width: 100px;
+    height: 97px;
+}
+
+.kpi .body {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.kpi .value {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.kpi:hover {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.productTitle {
+    padding: 0 20px 20px;
+}
+
+.tableview {
+    margin-top: 20px;
+    padding-inline: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.tableview table {
+    width: 100%;
+}
+
+.tableview table td {
+    text-align: center;
+}
+
+.tableview table th:first-of-type,
+.tableview table td:first-of-type {
+    text-align: left;
+}
+
+.tableview table th,
+.tableview table td {
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+table img {
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.search {
+    background: white;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    width: 150px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #cbcbcb;
+}
+
+.productName {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1100px) {
+
+    .kpiBar {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .kpi {
+        width: 50%;
+        flex: 1 0 45%;
+    }
+
+    .charts {
+        display: block;
+    }
+
+    .overview,
+    .doughnutChart {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .tableview {
+        overflow: auto
+    }
+
+    .productName {
+        display: block;
+    }
+
+    .tableview table th:first-of-type,
+    .tableview table td:first-of-type {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .kpiBar,
+    .charts {
+        display: block;
+        width: 100%;
+    }
+
+    .kpi,
+    .overview,
+    .doughnutChart {
+        margin-bottom: 20px;
+        width: 100%;
+
+    }
+
+    .search {
+        width: 100px;
+    }
+
+}
