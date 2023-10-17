@@ -44,7 +44,10 @@ function Dashboard() {
 
     return (
         <div style={{ marginRight: 20 }}>
-            Hello Shahrukh, <WavingHandIcon style={{ color: '#d8a962' }} />
+            <span style={{ fontWeight: 600 }}>
+                Hello Shahrukh,
+            </span>
+            <WavingHandIcon style={{ color: '#d8a962' }} />
             <div className={classes.search} style={{ float: "right" }}>
                 <SearchIcon style={{ width: 20 }} /> Search
             </div>
@@ -187,94 +190,96 @@ function Dashboard() {
                             <div className={classes.search} style={{ background: "#f5f6f8", width: "fit-content" }}>Last 30 days<KeyboardArrowDownIcon /></div>
                         </div>
                     </div>
-                    <table>
-                        <tr className={classes.subtitle}>
-                            <th>Product name</th>
-                            <th>Stack</th>
-                            <th>Price</th>
-                            <th>Total sell</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div className={classes.productName} >
-                                    <img src='abstract-3d.png' >
-                                    </img>
-                                    <div>
-                                        <div className={classes.tdTitle}>Abstract 3D</div>
-                                        <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                    <div style={{ width: "100%", overflow: "auto" }}>
+                        <table>
+                            <tr className={classes.subtitle}>
+                                <th>Product name</th>
+                                <th>Stack</th>
+                                <th>Price</th>
+                                <th>Total sell</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className={classes.productName} >
+                                        <img src='abstract-3d.png' >
+                                        </img>
+                                        <div>
+                                            <div className={classes.tdTitle}>Abstract 3D</div>
+                                            <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                        </div>
                                     </div>
-                                </div>
 
-                            </td>
-                            <td>32 in stock </td>
-                            <td>$49.99</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div className={classes.productName}>
-                                    <img src='istockphoto.png' >
-                                    </img>
-                                    <div>
-                                        <div className={classes.tdTitle}> Sarphens Illustration</div>
-                                        <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                </td>
+                                <td>32 in stock </td>
+                                <td>$49.99</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className={classes.productName}>
+                                        <img src='istockphoto.png' >
+                                        </img>
+                                        <div>
+                                            <div className={classes.tdTitle}> Sarphens Illustration</div>
+                                            <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                        </div>
                                     </div>
-                                </div>
 
-                            </td>
-                            <td>32 in stock </td>
-                            <td>$49.99</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div className={classes.productName}>
-                                    <img src='images.png' >
-                                    </img>
-                                    <div>
-                                        <div className={classes.tdTitle}>Glass 4k Abstract</div>
-                                        <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                </td>
+                                <td>32 in stock </td>
+                                <td>$49.99</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className={classes.productName}>
+                                        <img src='images.png' >
+                                        </img>
+                                        <div>
+                                            <div className={classes.tdTitle}>Glass 4k Abstract</div>
+                                            <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                        </div>
                                     </div>
-                                </div>
 
-                            </td>
-                            <td>32 in stock </td>
-                            <td>$49.99</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div className={classes.productName}>
-                                    <img src='image2.png' >
-                                    </img>
-                                    <div>
-                                        <div className={classes.tdTitle}>Modern And Creative Abstract 3D</div>
-                                        <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                </td>
+                                <td>32 in stock </td>
+                                <td>$49.99</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className={classes.productName}>
+                                        <img src='image2.png' >
+                                        </img>
+                                        <div>
+                                            <div className={classes.tdTitle}>Modern And Creative Abstract 3D</div>
+                                            <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                        </div>
                                     </div>
-                                </div>
 
-                            </td>
-                            <td>32 in stock </td>
-                            <td>$49.99</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div className={classes.productName}>
-                                    <img src='image3.png' >
-                                    </img>
-                                    <div>
-                                        <div className={classes.tdTitle}>Cube Pattern</div>
-                                        <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                </td>
+                                <td>32 in stock </td>
+                                <td>$49.99</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className={classes.productName}>
+                                        <img src='image3.png' >
+                                        </img>
+                                        <div>
+                                            <div className={classes.tdTitle}>Cube Pattern</div>
+                                            <span className={classes.tdSubtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span>
+                                        </div>
                                     </div>
-                                </div>
 
-                            </td>
-                            <td>32 in stock </td>
-                            <td>$49.99</td>
-                            <td>20</td>
-                        </tr>
-                    </table>
+                                </td>
+                                <td>32 in stock </td>
+                                <td>$49.99</td>
+                                <td>20</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div >

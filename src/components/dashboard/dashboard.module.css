@@ -182,10 +182,6 @@ table img {
         width: 100%;
     }
 
-    .tableview {
-        overflow: auto
-    }
-
     .productName {
         display: block;
     }
