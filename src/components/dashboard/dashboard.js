@@ -10,7 +10,7 @@ function Dashboard() {
     const years = [
         { revenue: 110, month: "Jan", color: "#f3efff" },
         { revenue: 90, month: "Feb", color: "#f3efff" },
-        { revenue: 150, month: "mar", color: "#f3efff" },
+        { revenue: 150, month: "Mar", color: "#f3efff" },
         { revenue: 130, month: "Apr", color: "#f3efff" },
         { revenue: 100, month: "May", color: "#f3efff" },
         { revenue: 120, month: "Jun", color: "#f3efff" },
@@ -179,8 +179,8 @@ function Dashboard() {
                     </div>
                 </div>
                 <div className={[classes.card, classes.tableview].join(' ')}>
-                    <div className={[classes.title, classes.productTitle].join(' ')}>
-                        <div>
+                    <div className={classes.productTitle}>
+                        <div className={classes.title}>
                             Product Sell
                         </div>
                         <div style={{ display: "flex" }}>

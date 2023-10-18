@@ -210,6 +210,23 @@ table img {
 
     .search {
         width: 100px;
+        font-size: 10px;
+        padding: 3px 8px;
+    }
+
+    .productTitle {
+        padding: 0 15px 20px;
+    }
+
+    .tableview table th,
+    .tableview table td {
+        padding: 10px 15px;
+    }
+
+
+    .overview,
+    .doughnutChart {
+        padding: 15px;
     }
 
 }
